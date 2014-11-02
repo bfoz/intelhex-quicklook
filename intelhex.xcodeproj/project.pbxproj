@@ -16,7 +16,21 @@
 		153D1A831A05DD3C0056FE29 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 153D1A821A05DD3C0056FE29 /* GeneratePreviewForURL.c */; };
 		153D1A851A05DD3C0056FE29 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 153D1A841A05DD3C0056FE29 /* main.c */; };
 		153D1A871A05DD3C0056FE29 /* intelhex-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 153D1A861A05DD3C0056FE29 /* intelhex-Prefix.pch */; };
+		153D1A921A0606DF0056FE29 /* intelhex.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 153D1A701A05DD3C0056FE29 /* intelhex.qlgenerator */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		153D1A911A0606CB0056FE29 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/QuickLook";
+			dstSubfolderSpec = 0;
+			files = (
+				153D1A921A0606DF0056FE29 /* intelhex.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		153D1A701A05DD3C0056FE29 /* intelhex.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = intelhex.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +133,7 @@
 				153D1A6C1A05DD3C0056FE29 /* Headers */,
 				153D1A6D1A05DD3C0056FE29 /* Resources */,
 				153D1A6E1A05DD3C0056FE29 /* Rez */,
+				153D1A911A0606CB0056FE29 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -314,6 +329,7 @@
 				153D1A8C1A05DD3C0056FE29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
