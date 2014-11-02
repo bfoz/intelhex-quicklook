@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153D1A741A05DD3C0056FE29 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153D1A731A05DD3C0056FE29 /* QuickLook.framework */; };
+		153D1A761A05DD3C0056FE29 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153D1A751A05DD3C0056FE29 /* ApplicationServices.framework */; };
+		153D1A781A05DD3C0056FE29 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153D1A771A05DD3C0056FE29 /* CoreServices.framework */; };
+		153D1A7A1A05DD3C0056FE29 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153D1A791A05DD3C0056FE29 /* CoreFoundation.framework */; };
+		153D1A7F1A05DD3C0056FE29 /* intelhex-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 153D1A7E1A05DD3C0056FE29 /* intelhex-Info.plist */; };
+		153D1A811A05DD3C0056FE29 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 153D1A801A05DD3C0056FE29 /* GenerateThumbnailForURL.c */; };
+		153D1A831A05DD3C0056FE29 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 153D1A821A05DD3C0056FE29 /* GeneratePreviewForURL.c */; };
+		153D1A851A05DD3C0056FE29 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 153D1A841A05DD3C0056FE29 /* main.c */; };
+		153D1A871A05DD3C0056FE29 /* intelhex-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 153D1A861A05DD3C0056FE29 /* intelhex-Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		153D1A701A05DD3C0056FE29 /* intelhex.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = intelhex.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		153D1A731A05DD3C0056FE29 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		153D1A751A05DD3C0056FE29 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		153D1A771A05DD3C0056FE29 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		153D1A791A05DD3C0056FE29 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		153D1A7D1A05DD3C0056FE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153D1A7E1A05DD3C0056FE29 /* intelhex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "intelhex-Info.plist"; sourceTree = "<group>"; };
+		153D1A801A05DD3C0056FE29 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		153D1A821A05DD3C0056FE29 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		153D1A841A05DD3C0056FE29 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		153D1A861A05DD3C0056FE29 /* intelhex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "intelhex-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		153D1A6B1A05DD3C0056FE29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153D1A7A1A05DD3C0056FE29 /* CoreFoundation.framework in Frameworks */,
+				153D1A741A05DD3C0056FE29 /* QuickLook.framework in Frameworks */,
+				153D1A781A05DD3C0056FE29 /* CoreServices.framework in Frameworks */,
+				153D1A761A05DD3C0056FE29 /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153D1A651A05DD3C0056FE29 = {
+			isa = PBXGroup;
+			children = (
+				153D1A7B1A05DD3C0056FE29 /* intelhex */,
+				153D1A721A05DD3C0056FE29 /* Frameworks */,
+				153D1A711A05DD3C0056FE29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		153D1A711A05DD3C0056FE29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				153D1A701A05DD3C0056FE29 /* intelhex.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		153D1A721A05DD3C0056FE29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				153D1A731A05DD3C0056FE29 /* QuickLook.framework */,
+				153D1A751A05DD3C0056FE29 /* ApplicationServices.framework */,
+				153D1A771A05DD3C0056FE29 /* CoreServices.framework */,
+				153D1A791A05DD3C0056FE29 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		153D1A7B1A05DD3C0056FE29 /* intelhex */ = {
+			isa = PBXGroup;
+			children = (
+				153D1A7E1A05DD3C0056FE29 /* intelhex-Info.plist */,
+				153D1A801A05DD3C0056FE29 /* GenerateThumbnailForURL.c */,
+				153D1A821A05DD3C0056FE29 /* GeneratePreviewForURL.c */,
+				153D1A841A05DD3C0056FE29 /* main.c */,
+				153D1A861A05DD3C0056FE29 /* intelhex-Prefix.pch */,
+				153D1A7C1A05DD3C0056FE29 /* Supporting Files */,
+			);
+			path = intelhex;
+			sourceTree = "<group>";
+		};
+		153D1A7C1A05DD3C0056FE29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				153D1A7D1A05DD3C0056FE29 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		153D1A6C1A05DD3C0056FE29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153D1A871A05DD3C0056FE29 /* intelhex-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		153D1A6F1A05DD3C0056FE29 /* intelhex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153D1A8A1A05DD3C0056FE29 /* Build configuration list for PBXNativeTarget "intelhex" */;
+			buildPhases = (
+				153D1A6A1A05DD3C0056FE29 /* Sources */,
+				153D1A6B1A05DD3C0056FE29 /* Frameworks */,
+				153D1A6C1A05DD3C0056FE29 /* Headers */,
+				153D1A6D1A05DD3C0056FE29 /* Resources */,
+				153D1A6E1A05DD3C0056FE29 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = intelhex;
+			productName = intelhex;
+			productReference = 153D1A701A05DD3C0056FE29 /* intelhex.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		153D1A661A05DD3C0056FE29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Brandon Fosdick";
+				TargetAttributes = {
+					153D1A6F1A05DD3C0056FE29 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 153D1A691A05DD3C0056FE29 /* Build configuration list for PBXProject "intelhex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 153D1A651A05DD3C0056FE29;
+			productRefGroup = 153D1A711A05DD3C0056FE29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				153D1A6F1A05DD3C0056FE29 /* intelhex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		153D1A6D1A05DD3C0056FE29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153D1A7F1A05DD3C0056FE29 /* intelhex-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		153D1A6E1A05DD3C0056FE29 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		153D1A6A1A05DD3C0056FE29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153D1A811A05DD3C0056FE29 /* GenerateThumbnailForURL.c in Sources */,
+				153D1A831A05DD3C0056FE29 /* GeneratePreviewForURL.c in Sources */,
+				153D1A851A05DD3C0056FE29 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		153D1A881A05DD3C0056FE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		153D1A891A05DD3C0056FE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		153D1A8B1A05DD3C0056FE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = intelhex/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		153D1A8C1A05DD3C0056FE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = intelhex/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		153D1A691A05DD3C0056FE29 /* Build configuration list for PBXProject "intelhex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153D1A881A05DD3C0056FE29 /* Debug */,
+				153D1A891A05DD3C0056FE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		153D1A8A1A05DD3C0056FE29 /* Build configuration list for PBXNativeTarget "intelhex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153D1A8B1A05DD3C0056FE29 /* Debug */,
+				153D1A8C1A05DD3C0056FE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 153D1A661A05DD3C0056FE29 /* Project object */;
+}
